@@ -23,9 +23,7 @@ public class pickFromBothEndToGetMaxSum {
 			sum = sum - A.get(B-1-i);
 			sum = sum + A.get(n-1-i);
 			result = Math.max(sum, result);
-		}
-		
-		
+		}	
 		return result;
 		
 	}
