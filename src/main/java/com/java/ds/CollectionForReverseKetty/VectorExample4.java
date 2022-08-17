@@ -26,6 +26,8 @@ public class VectorExample4 {
 		vc.addAll(vc1);
 		System.out.println("then the list of the vector is ");
 		System.out.println(vc);
+		
+		
 
 	}
 
