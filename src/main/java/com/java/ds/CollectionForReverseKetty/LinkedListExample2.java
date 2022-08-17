@@ -103,7 +103,7 @@ public class LinkedListExample2 {
 		lk.add(1,"Harish");
 		System.out.println(lk);
 		
-		// Removing the last occurenec of the element 
+		// Removing the last occurence of the element 
 		
 		lk.removeLastOccurrence("Harish");
 		System.out.println("after this ");
