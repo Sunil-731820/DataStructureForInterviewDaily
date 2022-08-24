@@ -10,11 +10,11 @@ public class ExampleOfFinal {
 //		(3) final class cannot be inherited.
 //		Final method is executed only when we call it.
 		
-		final int age = 100;
-		System.out.println("the age will be " + age);
+//		final int age = 100;
+//		System.out.println("the age will be " + age);
 		
 		//now again i am going to assign different value to the age variable
-		age = 70;
+		int age = 70;
 		System.out.println("the new age will be " + age);
 		
 	}
