@@ -68,6 +68,8 @@ public class ComparatorExample13 {
 		al.add(new Student(105,"Jai",21)); 
 		
 		// Now sorting using the collections.sort(list,properties)
+		System.out.println("the list is ");
+		System.out.println(al.toString());
 
 		Collections.sort(al , new AgeComparator());
 		
